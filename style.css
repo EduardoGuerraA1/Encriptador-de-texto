@@ -1,0 +1,65 @@
+main{
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 150%;
+}
+
+.logo{
+    width: 140px;
+    height: 100px;
+}
+
+
+body{
+    background-color: azure;
+}
+
+main{
+    display: flex;
+    margin-left: 95px;
+    margin-bottom: 45px;
+}
+
+
+.input-text{
+    width: 900px;
+    height: 400px;
+    font-size: xx-large;
+}
+
+.message{
+    position: relative;
+    height: 400px;
+    width: 300px;
+    margin-left: 90px;
+    font-size: xx-large;
+    background-image: url(https://clupik-assets.s3.eu-west-1.amazonaws.com/illustrations/empty_search.svg);
+    background-repeat: no-repeat;
+    background-position: 20px;
+    background-size: 100%;
+
+}
+
+
+.crypt{
+    background-color:lightpink;
+    color: black;
+    width: 200px;
+    height: 50px;
+}
+
+.decrypt{
+    background-color:lightgrey;
+    color: darkgray;
+    width: 200px;
+    height: 50px;
+}
+
+.copy{
+    position:fixed;
+    margin-left: 5px;
+    width: 75px;
+    height: 407px;
+    font-size: large;
+    background-color: lightblue;
+}
